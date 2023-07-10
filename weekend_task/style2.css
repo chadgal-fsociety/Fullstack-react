@@ -1,0 +1,23 @@
+body{
+    background-image: url("sprinkles-off-white-wallpaper.jpg");
+}
+
+.header{
+    padding: 20px;
+    
+    font-size: 25px;
+    font-family: "poppins";
+    height: 120px;
+    font-weight: bold;
+}
+.c{
+    
+    background-position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: "poppins";
+    font-size: 15px;
+    padding-top: 10%;
+}

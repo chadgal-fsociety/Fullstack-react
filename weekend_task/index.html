@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Weekend Task</title>
+</head>
+<body>
+   <div class="header">
 
+        <div style="text-align: left;float: left; width: 25%;">
+            <img src="https://cgc.ac.in/images/full-logo.gif" height="100px " width="290px"> 
+        </div>
+        <div style="text-align: center; float: left; width: 50%;">
+            <h1>Student Survey Form</h1>
+
+        </div>
+        <div style="float: right; width: 25%; text-align: right;">
+             <img src="https://www.cgc.ac.in/public/assets/images/1683185003_5022becadce29cfe6751.gif" height="100px" width="200px">
+        </div>
+   </div>
+    <hr>
+
+   <div class="form_body" style="height: auto;">
+    <h1> STUDENT DETAILS</h1><br>
+        <form style="font-size: 25px;">  
+            <label for="fname">Candidate Name:</label><br>
+            <input type="text" id="fname" name="fname" style="width: 49%; height: 30px;" placeholder="First Name"> 
+            <input type="text" id="fname" name="fname" style="width: 49%; height: 30px; " placeholder="Last Name"> 
+
+            <br>
+            <br>
+            <label for="rollno">University Roll No.</label>
+            <br>
+            <input type="text" id="rollno" name="rollno" style="width: 100%; height: 30px;" placeholder="University Roll. No"> 
+            <br>
+            <br>
+            <label for="Gender">Gender</label>
+            <br>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male" style="font-size: 15px;  font-weight: 100;">Male</label><br>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="Female" style="font-size: 15px; font-weight: 100;"> Female</label><br>
+            <input type="radio" id="Other" name="Gender" value="other">
+            <label for="Female" style="font-size: 15px; font-weight: 100;"> Others</label><br>
+          
+            <br>
+            <label for="Branch">Branch</label>
+            <br>
+            <select style="height: 15px;" name="Branch" id="Branch">
+                  <option value="Btech CSE">Btech CSE</option>
+                  <option value="Btech ME">Btech ME</option>
+                  <option value="Btech Civil">Btech Civil</option>
+                  <option value="Btech ECE">Btech ECE</option>
+            </select>
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <br>
+            <input type="text" id="address" name="address" style="width: 100%; height: 30px;" placeholder="Street Address"> 
+            <br>
+            <input type="text" id="address" name="city" style="width: auto; height: 30px;" placeholder="City"> 
+            <input type="text" id="address" name="state" style="width: auto; height: 30px;" placeholder="State"> 
+            <input type="text" id="address" name="zip" style="width:auto; height: 30px;" placeholder="Zip Code"> 
+            <br>
+            <br>
+            <label for="Ques1">Are U satisfied by teaching</label>
+            <br>
+            <input type="radio" id="Ques1" name="Ques1" value="Yes">
+            <label for="Ques1" style="font-size: 15px;  font-weight: 100;">Yes</label><br>
+            <input type="radio" id="Ques1" name="Ques1" value="No">
+            <label for="Ques1" style="font-size: 15px; font-weight: 100;"> No</label><br>
+            <br>
+            <label for="why">If No, Write why?</label>
+            <br>
+            <input type="text" id="why" name="why" style="width: 100%; height: 30px;" placeholder=" Why ? "> 
+            <br>
+            <br>
+            <label for="enjoy">Tell us Do you enjoy the college events?</label>
+            <br>
+            <input type="text" id="enjoy" name="enjoy" style="width: 100%; height: 30px;" placeholder=" Yes yes yes"> 
+            <br>
+            <br>
+            <label for="event">What find of event You want in college?</label>
+            <br>
+            <input type="text" id="event" name="event" style="width: 100%; height: 30px;" placeholder=" Events"> 
+            <br>
+            <br>
+            <label for="Complaint">Any Complaint about the Fault?</label>
+            <br>
+            <input type="text" id="Complaint" name="Complaint" style="width: 100%; height: 30px;" placeholder=" Complaint"> 
+            <br>
+            <br>
+            <label for="Mistreated">Ever Mistreated by Faculity, if yes Tell the whole incident.</label>
+            <br>
+            <input type="text" id="Mistreated" name="Mistreated" style="width: 100%; height: 30px;" placeholder=" Incident"> 
+            <br>
+            <br>
+            <label for="changes">What type of changes you want in Campus</label>
+            <br>
+            <input type="text" id="changes" name="changes" style="width: 100%; height: 30px;" placeholder=" Changes"> 
+            <br>
+            <br>
+           
+        </form>
+        <div style="text-align: center; "> 
+            <button class="button1" type="button" onclick="window.location.href='success.html';">Submit</button>
+        </div>
+
+   </div>
+</body>
+</html>
